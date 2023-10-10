@@ -1,0 +1,77 @@
+section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.cardmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinner {
+    text-align: center;
+}
+
+.cardname {
+    font-weight: bold;
+}
+
+.cardtotal {
+    color: #333;
+}
+
+section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    list-style: none;
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: #f0f0f0;
+}
+
+.cardmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardinner {
+    text-align: center;
+}
+
+.cardname {
+    font-weight: bold;
+}
+
+.cardtotal {
+    color: #333;
+}
